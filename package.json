@@ -1,0 +1,38 @@
+{
+  "name": "twinkle-client",
+  "version": "1.0.0",
+  "description": "Efficient and secure communication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ngrok http 3000 & nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meisme-dev/twinklechat.git"
+  },
+  "keywords": [
+    "chat",
+    "secure",
+    "efficient",
+    "twinkle",
+    "twinklechat"
+  ],
+  "author": "meisme-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meisme-dev/twinklechat/issues"
+  },
+  "homepage": "https://github.com/meisme-dev/twinklechat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2",
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ngrok": "^4.2.2",
+    "nodemon": "^2.0.15"
+  }
+}

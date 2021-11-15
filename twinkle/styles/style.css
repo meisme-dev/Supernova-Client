@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 3em;
+    font-weight: bolder;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 2.5em;
+    font-weight: bolder;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 2em;
+    font-weight: normal;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Roboto;
+    color: #88c0d0;
+    background: #2e3440;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+.nord {
+    background: #3b4252;
+}
+
+.nord-lighter {
+    background: #434c5e;
+}
+
+
+.wavy {
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    clip-path: ellipse(114% 100% at 40.4% 0%);
+}
+
+.wavy-bottom {
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    clip-path: ellipse(93% 100% at 31.08% 100%);
+}
+
+.logo {
+    width: 64px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+}
+
+.logo-smaller {
+    position: absolute;
+    width: 36px;
+    top: 1em;
+    z-index: 2;
+}
+
+.btn-primary {
+    display: block;
+    padding: 1em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+    color: #434c5e;
+    background: #88c0d0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    box-shadow: 0px 11px 20px -3px rgba(0,0,0,0.25);
+}
+
+.btn-primary:hover {
+    background: transparent;
+    box-shadow: inset 0 0 0 3px #88c0d0, 0px 11px 20px -3px rgba(0,0,0,0.25);
+    color: #88c0d0;
+}
+
+.btn-secondary {
+    display: block;
+    padding: 1em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+    color: #434c5e;
+    background: #81a1c1;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    box-shadow: 0px 11px 20px -3px rgba(0,0,0,0.25);
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-by-side-item {
+    margin: 0.33em;
+}
+
+.btn-secondary:hover {
+    background: transparent;
+    box-shadow: inset 0 0 0 3px #81a1c1, 0px 11px 20px -3px rgba(0,0,0,0.25);
+    color: #81a1c1;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 4em;
+    height: 100%;
+    background: #434C5E;
+    color: #88c0d0;
+    overflow-y: auto;
+    border-radius: 0 2em 2em 0;
+    z-index: 1;
+}
+
+.channel-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20em;
+    height: 100%;
+    background: #3B4252;
+    color: #88c0d0;
+    overflow-y: auto;
+    border-radius: 0 2em 2em 0;
+}
+
+.member-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20em;
+    height: 100%;
+    background: #3B4252;
+    color: #88c0d0;
+    overflow-y: auto;
+    border-radius: 2em 0 0 2em;
+    z-index: 1;
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: calc(100% - 30em);
+    height: 100%;
+    background: #2E3440;
+    color: #88c0d0;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.message-box {
+    background: #434C5E;
+    border-radius: 50em;
+    width: 100%;
+    height: 3em;
+    align-self: flex-end;
+    margin-bottom: 1.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    color: #88C0D0;
+    font-family: Roboto;
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 2em;
+    border: none;
+}
+
+.message-box:focus {
+    outline: none;
+}
