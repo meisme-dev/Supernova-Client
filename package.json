@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meisme-dev/twinklechat.git"
+    "url": "git+https://github.com/meisme-dev/Supernova-Client.git"
   },
   "keywords": [
     "chat",
@@ -21,9 +21,9 @@
   "author": "meisme-dev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/meisme-dev/twinklechat/issues"
+    "url": "https://github.com/meisme-dev/Supernova-Client/issues"
   },
-  "homepage": "https://github.com/meisme-dev/twinklechat#readme",
+  "homepage": "https://github.com/meisme-dev/Supernova-Client#readme",
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^4.3.1",

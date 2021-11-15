@@ -12,19 +12,19 @@ server.listen(3000, () => {
 });
 
 app.get("/", function(req, res) {
-    res.sendFile(__dirname + "/twinkle/index.html");
+    res.sendFile(__dirname + "/supernova/index.html");
 });
 
 app.get("/login", (req, res) => {
-    res.sendFile(__dirname + "/twinkle/auth/login.html");
+    res.sendFile(__dirname + "/supernova/auth/login.html");
 });
 
 app.get("/register", (req, res) => {
-    res.sendFile(__dirname + "/twinkle/auth/register.html");
+    res.sendFile(__dirname + "/supernova/auth/register.html");
 });
 
 app.get("/chat/:server/:room", (req, res) => {
-    res.sendFile(__dirname + "/twinkle/index.html");
+    res.sendFile(__dirname + "/supernova/index.html");
 });
 
 app.use(function(req, res) {
